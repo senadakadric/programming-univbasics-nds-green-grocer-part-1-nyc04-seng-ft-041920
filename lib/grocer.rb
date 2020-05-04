@@ -23,7 +23,7 @@ def consolidate_cart(cart)
     if !hash[:count] 
       hash[:count] = 1
     elsif hash[:count]
-      hash[:count] +=1 
+      hash[:count] += 1 
     end
   end
   new_array
