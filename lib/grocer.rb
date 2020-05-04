@@ -20,7 +20,9 @@ def consolidate_cart(cart)
   new_array = {}
   
   cart.each do |hash|
-    
+    if !hash[:count] 
+      hash[:count] = 1
+    end
   end
 
 end
