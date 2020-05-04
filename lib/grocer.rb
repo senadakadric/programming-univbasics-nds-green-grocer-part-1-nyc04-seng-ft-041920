@@ -22,10 +22,10 @@ def consolidate_cart(cart)
   cart.each do |hash|
     if !hash[:count] 
       hash[:count] = 1
-      new_array << hash
     elsif hash[:count]
       hash[:count] += 1 
     end
+    new_array << hash
   end
   new_array
 end
