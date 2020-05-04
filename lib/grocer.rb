@@ -19,7 +19,9 @@ def consolidate_cart(cart)
   
   new_array = {}
   
+  cart.each do |hash|
   
+end
 
 end
 
