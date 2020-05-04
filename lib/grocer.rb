@@ -17,11 +17,11 @@ def consolidate_cart(cart)
   # REMEMBER: This returns a new Array that represents the cart. Don't merely
   # change `cart` (i.e. mutate) it. It's easier to return a new thing.
   
-  new_array = {}
+  new_array = []
   
   cart.each do |hash|
     if !hash[:count] 
-      new_array[:count] = 1
+      hash[:count] = 1
     elsif hash[:count]
       hash[:count] += 1 
     end
