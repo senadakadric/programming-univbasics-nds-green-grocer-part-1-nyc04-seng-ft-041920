@@ -26,7 +26,7 @@ def consolidate_cart(cart)
       hash[:count] +=1 
     end
   end
-
+  new_array
 end
 
 
